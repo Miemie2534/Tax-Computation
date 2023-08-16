@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปรแกรมคำนวณภาษี</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="img">
+    <img src="img/money-2696229_640.jpg" width="450" height="300" alt="" class="money-vat">
+    </div>
+    <div class="name">
+        <h1>โปรแกรมคำนวณภาษี</h1>
+    </div>
+    
+    <!-- ส่วนของกรอบใส่จำนวนเงิน -->
+
+    <form class="form" id="myform">
+        <input type="text" class="total" id="total" placeholder="กรอกจำนวนเงินที่ต้องการ">  จำนวนเงิน
+        <!-- <label for="text">จำนวนเงิน</label> -->
+        <br><br>
+        <br>
+
+        <!-- ปุ่มกดให้คำนวณ -->
+
+        <button class="btn-con" onclick="myFunction()">Submit</button>
+        <button class="btn-con1" onclick="ResetAll()" value="Resetform">Reset</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
